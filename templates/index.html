@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Programmable move sequence</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../static/css/cozmo_education.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../static/js/jquery.ui.touch-punch.min.js"></script>
+    <script type=text/javascript>
+
+        var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+
+    </script>
+    <script src="../static/js/CButton.js?q={{ randomID }}"></script>
+    <script src="../static/js/Area.js?q={{ randomID }}"></script>
+    <script src="../static/js/Droppable.js?q={{ randomID }}"></script>
+    <script src="../static/js/Program.js?q={{ randomID }}"></script>
+    <script src="../static/js/ProgramList.js?q={{ randomID }}"></script>
+    <script src="../static/js/Controller.js?q={{ randomID }}"></script>
+    <script src="../static/js/View.js?q={{ randomID }}"></script>
+    <script src="../static/js/engine.js?q={{ randomID }}"></script>
+</head>
+
+<body></body>
+
+</html>
