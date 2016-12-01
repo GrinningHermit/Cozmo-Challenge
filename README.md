@@ -28,3 +28,8 @@ System requirements
 - An iOS or Android mobile device with the Cozmo app installed, connected to the PC via USB cable
 - Modern browser with ES6 support (http://kangax.github.io/compat-table/es6/)
 - Optional: Separate mobile device able to connect to the PC via the regular WiFi network. As the game supports touch, this provides a more natural user experience.  
+
+Installation notes
+-
+- All the files (except maps) are needed to run the program. Running 'Cozmo_Challenge.py' will cause a browser window to open. This is similar to  'remote_control_cozmo.py' from the Cozmo SDK examples.
+- Make sure Cozmo is off his charger when running a series of commands. He's too lazy sitting on his home spot at the moment.
